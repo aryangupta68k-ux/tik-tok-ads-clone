@@ -15,7 +15,7 @@ const StepCard = ({ number, title, description, highlighted = false }: StepCardP
       </div>
       <div className="flex-1 pt-2">
         <h3 className="text-xl font-bold mb-1">{title}</h3>
-        <p className={`${highlighted ? 'text-accent font-semibold' : 'text-muted-foreground'}`}>
+        <p className={`${highlighted ? 'text-green-600 font-semibold' : 'text-muted-foreground'}`}>
           {description}
         </p>
       </div>
