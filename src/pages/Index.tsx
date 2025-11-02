@@ -9,7 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-background flex items-center justify-center p-4 md:p-8">
       <div className="w-full max-w-2xl mx-auto">
         {/* TikTok Logo */}
-        <div className="flex justify-center mb-8 md:mb-12">
+        <div className="flex justify-center mb-4 md:mb-6">
           <img 
             src={tiktokLogo} 
             alt="TikTok" 
