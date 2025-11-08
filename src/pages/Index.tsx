@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import StepCard from "@/components/StepCard";
+import EarningsNotification from "@/components/EarningsNotification";
 import tiktokLogo from "@/assets/tiktok-logo.png";
 
 const Index = () => {
@@ -63,14 +64,7 @@ const Index = () => {
         </Card>
 
         {/* Earnings Notification */}
-        <div className="mt-6 flex justify-center">
-          <div className="bg-primary/10 border border-primary/20 rounded-full px-4 py-2 sm:px-6 sm:py-3 flex items-center gap-2 sm:gap-3 shadow-sm">
-            <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-green-500 animate-pulse"></div>
-            <p className="text-xs sm:text-sm font-medium text-foreground">
-              <span className="font-semibold">Alex</span> just earned <span className="font-bold text-primary">$57.34</span>
-            </p>
-          </div>
-        </div>
+        <EarningsNotification />
       </div>
     </div>
   );
