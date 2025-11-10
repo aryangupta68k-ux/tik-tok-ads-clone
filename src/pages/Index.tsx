@@ -35,13 +35,18 @@ const Index = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center mb-6 sm:mb-8 md:mb-12 px-2">
-          <Button 
-            size="lg" 
-            className="w-full max-w-md h-12 sm:h-14 md:h-16 text-sm sm:text-base md:text-lg font-semibold rounded-2xl hover:scale-105 transition-transform touch-manipulation"
+          <a 
+            href="https://glitchy.go2cloud.org/aff_c?offer_id=3261&aff_id=25344&url_id=10"
+            className="w-full max-w-md"
           >
-            Get Started Now
-            <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
-          </Button>
+            <Button 
+              size="lg" 
+              className="w-full h-12 sm:h-14 md:h-16 text-sm sm:text-base md:text-lg font-semibold rounded-2xl hover:scale-105 transition-transform touch-manipulation"
+            >
+              Get Started Now
+              <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+            </Button>
+          </a>
         </div>
 
         {/* Quick Start Guide Card */}
