@@ -65,18 +65,12 @@ const Index = () => {
             
             <StepCard
               number={2}
-              title="Complete Deals"
+              title="Verify you're a Human"
               description="Complete recommended 2-3 deals"
             />
             
             <StepCard
               number={3}
-              title="Add your Bank Info"
-              description="Add your bank details to receive payments"
-            />
-            
-            <StepCard
-              number={4}
               title="Start Reviewing"
               description="Start your journey as a TikTok reviewer"
               highlighted={true}
